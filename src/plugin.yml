@@ -1,0 +1,13 @@
+name: McddAPI
+main: McddAPI.Main
+version: 1.0
+api-version: 1.12
+depend: [PlaceholderAPI,DragonCore]
+author: Mcdd
+loadbefore: [PlaceholderAPI]
+
+commands:
+  mcddapi:
+    usage: /mcddapi
+    reload: /mcddapi reload
+    cci: /mcddapi cci

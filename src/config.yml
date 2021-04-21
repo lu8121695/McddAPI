@@ -1,0 +1,33 @@
+#检测时间的lore前缀  时间格式yyyy-MM-dd HH:mm
+startword: "  §7到期时间§7: §6"
+
+#高空流水限制
+AntiShui: true
+#物品时间到期删除
+ItemListener: true
+#铁砧禁用 权限McddAPI.Tiezhen
+Tiezhen: true
+#附魔台禁用 权限McddAPI.Fumo
+Enchat: true
+#禁止给驴马等身上放箱子 权限McddAPI.Xiangzi
+BanXiangzi: true
+#刷铁轨bug修复
+TieguiBug: true
+#饱食度锁定
+NoHunger: true
+#潜影盒蹦服bug修复
+BoxFixer: true
+#钓鱼不出附魔书
+NoFish: true
+#关闭死亡窗口
+Siwang: true
+#攻击粒子减少(重载无法关闭需要重启服务器)
+Effect: true
+maxEffectNum: 10
+minEffectNum: 1
+
+#禁止在某些世界使用的指令
+world:
+  - '/help'
+sc:
+  - '/pcmd'
